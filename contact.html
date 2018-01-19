@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Layout Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+  <div id="header">
+    <img src="images/baby1.png" alt="logo"/>
+      <ul id="menu-utama">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </div> <!--Penutup Header-->
+  <div id="daftar-artikel">
+    <div class="artikel">
+      <h3>Send Your Message</h3>
+        <div class="form_contact">
+          <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="Phone">Your Phone:</label><br />
+		<input id="Phone" class="input" name="Phone" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
+        </div>
+    </div>
+  </div>
+  <div id="sidebar">
+   <form>
+   	 <input class="search" type="text" placeholder="Cari..." required>
+   	 <input class="button" type="button" value="Cari">		
+   </form>
+    <h2>Who are you ? </h2>
+    <p>Selamat Datang Di Baby Care Senang rasanya bisa melayani Bunda/Ayah! ^_^
+
+Hubungi sales kami jika Bunda/Ayah butuh bantuan untuk mencari perlengkapan bayi.
+    </p>
+    <h2>Artikel berdasarkan kategori</h2>
+    <ul>
+      <li>
+        <a href="">Tas</a>
+      </li>
+      <li>
+        <a href="">Dorongan Bayi</a>
+      </li>
+      <li>
+        <a href="">Gendongan Bayi</a>
+      </li>
+      <li>
+        <a href="">Perlengkapan Ibu</a>
+      </li>
+      <li>
+        <a href="">Perlengkapan Makan</a>
+      </li>
+      <li>
+        <a href="">Kasur</a>
+      </li>
+    </ul>
+  </div>
+  <div id="footer">
+    <p> copyright @Newby ML</p>
+  </div>
+</div>
+</body>
+</html>
